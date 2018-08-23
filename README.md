@@ -6,4 +6,4 @@
 <br>
 <h3>Usage [sort_folders.sh]</h3>
 <p>bash sort_folders.sh ~/Downloads ~/Desktop/ ~/Documents</p>
-<h3>Description</h3><p>Takes multiple directories as input and sorts all files in their respective folders in each of those directories</p>
+<h3>Description</h3><p>Takes multiple directories as input and moves all files into their respective folders(based on file-extension), in each of those directories</p>
