@@ -8,7 +8,9 @@ for i in $*;
         if [[ "$item" == *"."* ]];
            then
              extension=${item#*.}
-             mkdir $extension
+             if [ ! -d "$extension" ]; then
+                mkdir $extension;
+             fi
              mv $item ./$extension/
         fi
       done
